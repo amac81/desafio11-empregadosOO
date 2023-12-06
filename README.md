@@ -8,7 +8,7 @@ Projeto desenvolvido no curso Java e Programação Orientada a Objetos Expert - 
 
 ##  Objetivos:
 
-- Aplicação dos conceitos Enumerações e Composição;
+- Aplicação dos conceitos de Enumerações e Composição;
 
 # Tecnologias usadas
 - Java
