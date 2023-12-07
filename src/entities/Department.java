@@ -51,6 +51,11 @@ public class Department {
 		employees.remove(employee);
 	}
 	
+	public List<Employee> getEmployees() {
+		return employees;
+	}
+
+	// soma dos salarios de todos os trabalhadores do departamento
 	public double payroll() {
 		return 0.0;
 	}
