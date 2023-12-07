@@ -9,7 +9,6 @@
 
 package application;
 
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -83,7 +82,6 @@ public class Program {
 		}
 			
 		System.out.println("\nPara dúvidas favor entrar em contato: vendas@lojatop.com");
-	}
-		
+	}		
 }
 ;

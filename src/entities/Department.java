@@ -7,6 +7,7 @@ public class Department {
 	private String name;
 	private int payDay;
 	private Address address;
+	//instanciacao da lista de employees
 	private List<Employee> employees = new ArrayList<Employee>();
 	
 	public Department() {}
