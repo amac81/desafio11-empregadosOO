@@ -26,5 +26,10 @@ public class Address {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
+
+	@Override
+	public String toString() {
+		return "Address [email=" + email + ", phone=" + phone + "]";
+	}
 	
 }

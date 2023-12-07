@@ -14,6 +14,8 @@ public class Department {
 	}
 
 	public Department(String name, int payDay, Address address) {
+		if(employees == null)
+			employees = new ArrayList<Employee>();
 		this.name = name;
 		this.payDay = payDay;
 		this.address = address;
@@ -58,6 +60,12 @@ public class Department {
 	// soma dos salarios de todos os trabalhadores do departamento
 	public double payroll() {
 		return 0.0;
+	}
+
+	@Override
+	public String toString() {
+		return "Department [name=" + name + ", payDay=" + payDay + ", address=" + address + ", employees=" + employees
+				+ "]";
 	}
 	
 }

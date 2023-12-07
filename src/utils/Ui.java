@@ -33,6 +33,8 @@ public class Ui {
 				}
 				else {
 					askAgain = false;
+					//consumir quebra de linha
+					scanner.nextLine();				
 					break;
 				}
 			} 
@@ -64,6 +66,8 @@ public class Ui {
 			{
 				value = scanner.nextDouble();
 				askAgain = false;
+				//consumir quebra de linha
+				scanner.nextLine();
 				break;				
 			} 
 			else {
