@@ -58,7 +58,11 @@ public class Program {
 			String name = sc.nextLine();
 			double salary = Ui.askAndValidateDoubleInput("Salário: ", sc);
 			
-			System.out.println("Nome: " + name + ", salário: " + salary);
+			//Instanciacao de um Employee
+			Employee employee = new Employee(name, salary);
+	
+			//adicicionar Employee ao Departament
+			department.addEmployee(employee);
 			
 			reps ++;
 		} while(reps < nEmployees);
