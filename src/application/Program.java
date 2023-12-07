@@ -74,15 +74,8 @@ public class Program {
 		System.out.println("Pagamento realizado no dia " + department.getPayDay());
 		System.out.println("Funcionários:");
 		
-		//Listagem dos funcionarios do department
-		if(department.getEmployees() != null) 
-		{
-			for(Employee e: department.getEmployees()) {
-				System.out.println(e.getName());
-			}
-		}
-		else {
-			System.out.println("Departamento sem funcionários");
+		for(Employee e: department.getEmployees()) {
+			System.out.println(e.getName());
 		}
 			
 		System.out.println("\nPara dúvidas favor entrar em contato: vendas@lojatop.com");

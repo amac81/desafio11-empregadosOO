@@ -7,15 +7,11 @@ public class Department {
 	private String name;
 	private int payDay;
 	private Address address;
-	private List<Employee> employees;
+	private List<Employee> employees = new ArrayList<Employee>();
 	
-	public Department() {
-		employees = new ArrayList<Employee>();
-	}
+	public Department() {}
 
 	public Department(String name, int payDay, Address address) {
-		if(employees == null)
-			employees = new ArrayList<Employee>();
 		this.name = name;
 		this.payDay = payDay;
 		this.address = address;
