@@ -55,7 +55,13 @@ public class Department {
 
 	// soma dos salarios de todos os trabalhadores do departamento
 	public double payroll() {
-		return 0.0;
+		double salarySum = 0.0;
+		
+		for(Employee e: employees) {
+			salarySum += e.getSalary();
+		}
+		
+		return salarySum;
 	}
 
 	@Override
