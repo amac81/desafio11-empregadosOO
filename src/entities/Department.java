@@ -6,15 +6,17 @@ import java.util.List;
 public class Department {
 	private String name;
 	private int payDay;
+	private Address address;
 	private List<Employee> employees;
 	
 	public Department() {
 		employees = new ArrayList<Employee>();
 	}
 
-	public Department(String name, int payDay) {
+	public Department(String name, int payDay, Address address) {
 		this.name = name;
 		this.payDay = payDay;
+		this.address = address;
 	}
 
 	public String getName() {
@@ -33,6 +35,14 @@ public class Department {
 		this.payDay = payDay;
 	}
 	
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+
 	public void addEmployee(Employee employee) {
 		employees.add(employee);
 	}
